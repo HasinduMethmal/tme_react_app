@@ -18,7 +18,7 @@ const DealsBanner = () => {
         boxSizing: 'border-box',
         paddingLeft: { xs: '0', sm: '0', md: '0', lg: '110px' },
         paddingRight: { xs: '0', sm: '0', md: '0', lg: '110px' },
-        gap: 5,
+        
       }}
     >
       <Box
@@ -44,9 +44,9 @@ const DealsBanner = () => {
           alt="Plane"
           sx={{
             width: '200px',
-            height: 'auto',
+            height: '250px',
             marginBottom: 2,
-            height: '300px',
+
           }}
         />
 

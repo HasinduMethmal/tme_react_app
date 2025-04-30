@@ -21,7 +21,6 @@ const TravelBoxes = () => {
       {/* Left Section */}
       <Card
         sx={{
-          display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "space-between",
@@ -123,7 +122,7 @@ const TravelBoxes = () => {
           <CardContent>
             <Typography variant="h6" fontWeight="bold">
             Chat With Expert ↗️<br/>
-            <img src={live_icon} width={100} height={100} style={{ paddingLeft:"100px" ,paddingTop:'40px'}}>
+            <img src={live_icon} width={100} height={100} style={{ paddingLeft:"100px" ,paddingTop:'40px'}} alt="">
             </img>
             </Typography>
             <Typography variant="body2" sx={{ marginTop: 1 }}>

@@ -1,5 +1,5 @@
 "use client"
-import { Box, Typography, Card, CardContent, CardMedia, Button, useTheme, useMediaQuery, Stack } from "@mui/material"
+import { Box, Typography, Card, CardContent, CardMedia, Button, Stack } from "@mui/material"
 import AirIcon from "@mui/icons-material/Air"
 import AcUnitIcon from "@mui/icons-material/AcUnit"
 import ThermostatIcon from "@mui/icons-material/Thermostat"
@@ -14,8 +14,6 @@ import playstore_icon from '../assets/images/playstore_icon.png';
 import fence_icon from '../assets/images/fence_icon.png';
 
 const TravelApp = () => {
-  const theme = useTheme()
-  const isMobile = useMediaQuery(theme.breakpoints.down("sm"))
 
   return (
     <Box

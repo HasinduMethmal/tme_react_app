@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import {
   AppBar,
   Box,
-  CssBaseline,
   Divider,
   Drawer,
   IconButton,
@@ -13,7 +12,6 @@ import {
   ListItemButton,
   ListItemText,
   Toolbar,
-  Typography,
   Button,
   TextField,
   InputAdornment,
